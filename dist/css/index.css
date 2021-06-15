@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css?family=Ibarra+Real+Nova:400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Archivo+Narrow&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.671);
+}
+
+header {
+  width: 100%;
+  margin: auto;
+  background-color: blue;
+  height: 6rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 1.5rem;
+}
+
+header h1 {
+  color: yellow;
+  border: 5px solid red;
+  -webkit-box-shadow: -0.3rem 0.3rem 0 0 rgba(0, 0, 0, 0.2);
+          box-shadow: -0.3rem 0.3rem 0 0 rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  border: 3px red dashed;
+}
+
+.logo {
+  width: 13%;
+  margin-left: 5%;
+  margin-top: 2rem;
+  text-align: left;
+  background-color: #db1edb;
+}
+
+.logo h2 {
+  font-size: 2.5rem;
+  border: 7px yellow dotted;
+  border-radius: 20px;
+}
+
+.main {
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: aqua;
+  border-radius: 10px;
+}
+
+.main p {
+  font-size: 1.5rem;
+  font-weight: 1000;
+  padding: 0.5rem 1rem;
+}
+
+section.articles {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(23rem, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(23rem, 1fr));
+  gap: 3rem;
+  min-width: 30rem;
+  padding-top: 2rem;
+  font-size: 1.5rem;
+  width: 90%;
+  margin: 0 auto;
+}
+
+section.articles article {
+  border: 5px solid red;
+  -webkit-box-shadow: -0.3rem 0.3rem 0 0 rgba(0, 0, 0, 0.2);
+          box-shadow: -0.3rem 0.3rem 0 0 rgba(0, 0, 0, 0.2);
+  border-style: double;
+  border-width: 8px;
+  border-radius: 20px;
+  background-color: #9196c7;
+}
+
+section.articles article img {
+  width: 100%;
+  height: auto;
+}
+
+section.articles article p {
+  margin: 1rem 0;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+section.articles article h4 {
+  color: #f8f85b;
+}
+
+section.articles article a {
+  border-radius: 15px;
+  padding: 0 1.5rem;
+  background-color: #b464e2;
+  color: #2023b1;
+}
+
+section.articles article a:hover {
+  color: aqua;
+}
+/*# sourceMappingURL=index.css.map */
